@@ -26,7 +26,7 @@ public class FiscalizacaoChocolate {
         string sabor1 = "AO_LEITE";
         string sabor2 = "AMARGO";
 
-        if (tipoChoco.equalsIgnoreCase(tipo1) && qtA > 15) {
+        if (tipoChoco.equalsIgnoreCase(sabor1) && qtA > 15) {
             System.out.println("Classificação: Doce de leite com cacau (Excesso de açúcar)");
         } else {
             System.out.println("Classificação: Chocolate balanceado");
