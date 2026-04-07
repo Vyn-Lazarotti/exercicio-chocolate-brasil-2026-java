@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class choco {
+public class FiscalizacaoChocolate {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
