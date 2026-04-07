@@ -23,10 +23,10 @@ public class FiscalizacaoChocolate {
         String tipoChoco = teclado.nextLine();
         System.out.println("Quantidade de açúcar: ");
         int qtA = teclado.nextInt();
-        string type1 = "AO_LEITE";
-        string type2 = "AMARGO";
+        string tipo1 = "AO_LEITE";
+        string tipo2 = "AMARGO";
 
-        if (tipoChoco.equalsIgnoreCase(type1) && qtA > 15) {
+        if (tipoChoco.equalsIgnoreCase(tipo1) && qtA > 15) {
             System.out.println("Classificação: Doce de leite com cacau (Excesso de açúcar)");
         } else {
             System.out.println("Classificação: Chocolate balanceado");
