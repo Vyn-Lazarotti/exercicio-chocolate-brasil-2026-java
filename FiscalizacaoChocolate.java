@@ -20,11 +20,13 @@ public class FiscalizacaoChocolate {
         // Segunda situação
         System.out.println("Verificação de Categoria e Rótulo");
         System.out.println("Tipo de chocolate: ");
-        String tipoChoco = teclado.nextLine().toUpperCase();
+        String tipoChoco = teclado.nextLine();
         System.out.println("Quantidade de açúcar: ");
         int qtA = teclado.nextInt();
+        string type1 = "AO_LEITE";
+        string type2 = "AMARGO";
 
-        if (tipoChoco == "AO_LEITE" && qtA > 15) {
+        if (tipoChoco.equalsIgnoreCase(type1) && qtA > 15) {
             System.out.println("Classificação: Doce de leite com cacau (Excesso de açúcar)");
         } else {
             System.out.println("Classificação: Chocolate balanceado");
