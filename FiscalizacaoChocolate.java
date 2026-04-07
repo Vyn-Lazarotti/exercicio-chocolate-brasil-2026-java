@@ -4,6 +4,8 @@ public class FiscalizacaoChocolate {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
+        System.out.println("Fiscalização Páscoa 2026");
+
         // Primeira situação
         System.out.println("Classificação por Teor de Cacau");
         System.out.println("Teor de cacau: ");
