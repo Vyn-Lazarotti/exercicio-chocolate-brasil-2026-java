@@ -13,7 +13,7 @@ public class FiscalizacaoChocolate {
 
         if (teorCacau < 25) {
             System.out.println("ALERTA: Produto 'Fake'. Classificar como 'Sabor Chocolate'");
-        } else if (teorCacau >= 25 || teorCacau < 35) {
+        } else if (teorCacau >= 25 && teorCacau < 35) {
             System.out.println("Chocolate Comum (Padrão Nacional Atual)");
         } else { // Para caso seja igual ou esteja acima de 35
             System.out.println("Chocolate de Alta Qualidade (Padrão Internacional/UE)");
