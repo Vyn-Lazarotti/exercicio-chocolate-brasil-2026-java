@@ -39,7 +39,7 @@ public class FiscalizacaoChocolate {
         System.out.println("Nota de pureza (de 0 a 10): ");
         int notaP = teclado.nextInt();
 
-        if (priceOvo > 100 || notaP < 5) {
+        if (priceOvo > 100.00 || notaP < 5) {
             System.out.println("REJEITADO PARA EXPORTAÇÃO: Custo-benefício fora dos padrões");
         } else {
             System.out.println("APROVADO: Produto competitivo para o mercado externo");
