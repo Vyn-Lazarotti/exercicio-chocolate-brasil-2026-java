@@ -45,6 +45,8 @@ public class FiscalizacaoChocolate {
             System.out.println("APROVADO: Produto competitivo para o mercado externo");
         }
 
+        System.out.println("Fiscalização finalizada");
+
         teclado.close();
     }
 }
